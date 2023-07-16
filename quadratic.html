@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Possibility</title>
+  <link rel="icon" href="file/image/logo/logo.png">
+  <link rel="stylesheet" href="file/quadratic.css">
+  <script src="file/quadratic.js"></script>
+  <!-------- linkcdn --------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-------- linkcdn --------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+</head>
+<body>
+<!-- /* ------------nav------------------ */ -->
+<div class="hero">
+  <nav class="nav">
+    <h2 class="logo">Possi<span>bility</span></h2>
+    <ul>
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-bars" style="font-size:28px;color:red"></i></i></button>
+        <div class="dropdown-content">
+          <a href="problem.html"><i class="fa fa-home"></i>Home</a>
+          <a href="normal equation.html"><i class='fa fa-calculator'></i>Calculations</a>
+          <a href="convertfeettometer.html"><i class='fa fa-calculator'></i>converter</a>
+          <a href="quadratic.html"><i class='fa fa-code'></i>Quadratic Equation</a>
+          <a href="functios.html"><i class='fa fa-code'></i>functions</a>
+          <a href="contact us.html"><i class='fa fa-phone'></i>Contact Us</a>
+        </div>
+      </div>
+ 
+    </ul>
+    <button class="btnsignin" type="button">SignIn</button>
+  </nav>
+ </div>
+ <!-- /* ------------nav------------------ */ -->
+ <!-- /* ------------header------------------ */ -->
+<div class="container title">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 ">
+      <h1 class="text-uppercase text-white heading">"Equations Explained" <br><span>Unlocking the Power of</span><br>Second-Degree Polynomials</h1>
+      <p class="text-lowercase text-white">An equation web page is a type of web page that provides information and resources related to equations. It typically serves as a reference or educational tool for users who want to understand and work with mathematical or scientific equations</p>
+    </div>
+   
+  </div>
+</div>
+  <!-- /* ------------header------------------ */ -->
+ <!-- /* ------------dataquadratic------------------ */ -->
+  <div class="container p-5 quadratic">
+  <h1><span>Q</span>uadratic <span>E</span>quation</h1>
+  <hr>
+  <h3>Standard Form of a Quadratic Equation:</h3>
+  <p>Begin with a brief overview of quadratic equations and their significance.Define the coefficients a, b, and c and their roles in the equation.
+    Discuss how the values of these coefficients affect the graph and behavior of the quadratic equation.</p>
+    <h3>Roots of a Quadratic Equation:</h3>
+    <p>Describe the concept of roots (or solutions) of a quadratic equation.
+      Explain how to find the roots using the quadratic formula, x = (-b ± √(b² - 4ac)) / (2a).</p>
+      <h3>Graphical Representation:</h3>
+      <p>Illustrate the graph of a quadratic equation on a coordinate plane.
+        Explain the key features of the graph, such as the vertex, axis of symmetry, and direction of opening.</p>
+        <h3>Solving Quadratic Equations:</h3>
+        <p>Discuss different methods for solving quadratic equations, such as factoring, completing the square, and using the quadratic formula</p>
+        <h3>Conclusion:</h3>
+        <p>Summarize the key points covered in the webpage.
+          Encourage further exploration and practice with quadratic equations.
+          Provide additional resources, such as textbooks, online courses, or interactive tools for quadratic equation exploration.</p>
+        </div>
+
+<div class="container-fluid equation">
+  <div class="row"> 
+<div class="inputfield col-lg-8 col-md-8 col-sm-12">
+  <input type="number" id="coefficient-a" placeholder="Enter coefficient a"><br>
+  <input type="number" id="coefficient-b" placeholder="Enter coefficient b"><br>
+  <input type="number" id="coefficient-c" placeholder="Enter coefficient c"><br>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 output">
+  <button onclick="solveQuadratic()">Answer</button>
+  <p id="result" class="text-white ans">(Click the top button)</p>
+</div>
+</div>
+
+</div>
+ <!-- /* ------------dataquadratic------------------ */ -->
+
+      <!-- ------------footer------------------ --> 
+      <div class="container-fluid my-5">
+
+        <footer class="bg-light text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="reset" class="btn btn-primary mb-4">
+                    Send
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="#">syedfahadali.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      </div>
+       <!-- ------------footer------------------ --> 
+</body>
+</html>
