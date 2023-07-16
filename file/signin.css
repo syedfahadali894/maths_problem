@@ -1,0 +1,67 @@
+*{   
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'josefin sans', sans-serif;
+    
+}
+.head{
+    height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url(image/contact-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} 
+.container{
+    
+}
+form{
+width: 100%;
+padding: 50px;
+/* align-items: center; */
+}
+.data{
+    border: 1px;
+    border-style: outset;
+    border-radius: 50px;
+}
+.data h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+.data p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+}
+.putting{
+    text-align: center;
+}
+.data input{
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 20px;
+    border-color: aliceblue;
+}
+.data button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ea1538;
+    color: white;
+    border-color: aliceblue;
+}
+.data button:hover{
+    background-color: white;
+    color:  #ea1538;
+    border-color: #ea1538;
+    transition: all 1s;
+}
